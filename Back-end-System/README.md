@@ -5,11 +5,11 @@ This is the backend API for the Expense Management System.
 It handles authentication, income & expense tracking, and financial summaries.
 
 ## Tech Stack
-- Node.js + Express.js
-- MongoDB + Mongoose
-- JWT Authentication
-- bcrypt.js for password hashing
-- dotenv for environment config
+- Node.js + Express.js  
+- MongoDB + Mongoose  
+- JWT Authentication  
+- bcrypt.js for password hashing  
+- dotenv for environment config  
 
 ## Run Locally
 1. Clone the repository  
@@ -17,4 +17,4 @@ It handles authentication, income & expense tracking, and financial summaries.
 3. Run:
    ```bash
    npm install
-   npm run dev
+   node src/server.js
